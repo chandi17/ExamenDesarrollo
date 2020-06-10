@@ -2,6 +2,12 @@
     Private Sub btnIniciar_Click(sender As Object, e As EventArgs) Handles btnIniciar.Click
         Dim password, usuario As String
 
+        If txtUsuario.Text = "" Or txtPassword.Text = "" Then
+            MessageBox.Show("Debe Llenar todos los campos...", "Creae Usuario", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            txtUsuario.Focus()
+            Exit Sub
+        End If
+
         usuario = txtUsuario.Text
         password = txtPassword.Text
 
@@ -11,7 +17,7 @@
             Exit Sub
         End If
 
-        MsgBox("Usuario o Contraseña Incorrecto, Vuelva a intentarlo", "Error", MessageBoxButtons.OKCancel)
+        MessageBox.Show("Usuario o Contraseña Incorrecto, Vuelva a intentarlo", "Error", MessageBoxButtons.OKCancel)
         txtPassword.Clear()
         txtUsuario.Clear()
     End Sub
@@ -22,8 +28,7 @@
         If salir <> 6 Then
             txtUsuario.Focus()
         Else
-            Prinicipal.Show()
-            Me.Hide()
+            End
         End If
     End Sub
 End Class

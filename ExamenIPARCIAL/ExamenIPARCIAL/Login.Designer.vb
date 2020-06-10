@@ -33,6 +33,7 @@ Partial Class Login
         '
         'btnSalir
         '
+        Me.btnSalir.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.btnSalir.Location = New System.Drawing.Point(574, 273)
         Me.btnSalir.Name = "btnSalir"
         Me.btnSalir.Size = New System.Drawing.Size(132, 44)
@@ -42,6 +43,7 @@ Partial Class Login
         '
         'btnIniciar
         '
+        Me.btnIniciar.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.btnIniciar.Location = New System.Drawing.Point(574, 176)
         Me.btnIniciar.Name = "btnIniciar"
         Me.btnIniciar.Size = New System.Drawing.Size(132, 44)
@@ -94,8 +96,10 @@ Partial Class Login
         '
         'Login
         '
+        Me.AcceptButton = Me.btnIniciar
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.CancelButton = Me.btnSalir
         Me.ClientSize = New System.Drawing.Size(778, 397)
         Me.Controls.Add(Me.btnSalir)
         Me.Controls.Add(Me.btnIniciar)

@@ -1,6 +1,6 @@
 ﻿Module Variables
     Public pautaUsuario, pautaPassword As String
     Public estado As Boolean
-    Public totalRecuperado, totalMerto, tatalInfectados As Integer
-
+    Public TotalesDepartamento(17, 2) As Integer
+    Public Totales(3) As Integer
 End Module

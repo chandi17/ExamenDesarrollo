@@ -75,6 +75,7 @@ Partial Class CrearUsuario
         '
         'btnGuardar
         '
+        Me.btnGuardar.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.btnGuardar.Location = New System.Drawing.Point(93, 401)
         Me.btnGuardar.Name = "btnGuardar"
         Me.btnGuardar.Size = New System.Drawing.Size(100, 41)
@@ -84,6 +85,7 @@ Partial Class CrearUsuario
         '
         'btnCancelar
         '
+        Me.btnCancelar.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.btnCancelar.Location = New System.Drawing.Point(292, 401)
         Me.btnCancelar.Name = "btnCancelar"
         Me.btnCancelar.Size = New System.Drawing.Size(100, 41)
@@ -93,8 +95,10 @@ Partial Class CrearUsuario
         '
         'CrearUsuario
         '
+        Me.AcceptButton = Me.btnGuardar
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.CancelButton = Me.btnCancelar
         Me.ClientSize = New System.Drawing.Size(517, 527)
         Me.Controls.Add(Me.btnCancelar)
         Me.Controls.Add(Me.btnGuardar)

@@ -15,7 +15,7 @@
 
     Private Sub btnCancelar_Click(sender As Object, e As EventArgs) Handles btnCancelar.Click
         Dim salir As String
-        salir = MsgBox("¿Esta seguro que desea salir?", 36, "SALIR")
+        salir = MsgBox("¿Esta seguro que desea Regresar?", 36, "SALIR")
         If salir <> 6 Then
             txtUsuario.Focus()
         Else

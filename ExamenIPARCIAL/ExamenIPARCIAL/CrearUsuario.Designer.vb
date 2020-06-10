@@ -64,7 +64,7 @@ Partial Class CrearUsuario
         Me.txtUsuario.Location = New System.Drawing.Point(132, 188)
         Me.txtUsuario.Name = "txtUsuario"
         Me.txtUsuario.Size = New System.Drawing.Size(221, 22)
-        Me.txtUsuario.TabIndex = 1
+        Me.txtUsuario.TabIndex = 0
         '
         'txtPassword
         '
@@ -89,8 +89,8 @@ Partial Class CrearUsuario
         Me.btnCancelar.Location = New System.Drawing.Point(292, 401)
         Me.btnCancelar.Name = "btnCancelar"
         Me.btnCancelar.Size = New System.Drawing.Size(100, 41)
-        Me.btnCancelar.TabIndex = 2
-        Me.btnCancelar.Text = "Cancelar"
+        Me.btnCancelar.TabIndex = 3
+        Me.btnCancelar.Text = "Regresar"
         Me.btnCancelar.UseVisualStyleBackColor = True
         '
         'CrearUsuario

@@ -12,3 +12,17 @@ C:\Users\Elmer Chandia\source\repos\ExamenIPARCIAL\ExamenIPARCIAL\obj\Debug\Exam
 C:\Users\Elmer Chandia\source\repos\ExamenIPARCIAL\ExamenIPARCIAL\obj\Debug\ExamenIPARCIAL.xml
 C:\Users\Elmer Chandia\source\repos\ExamenIPARCIAL\ExamenIPARCIAL\obj\Debug\ExamenIPARCIAL.pdb
 C:\Users\Elmer Chandia\source\repos\ExamenIPARCIAL\ExamenIPARCIAL\obj\Debug\ExamenIPARCIAL.Prinicipal.resources
+C:\Users\Elmer Chandia\Documents\GitHub\ExamenDesarrollo\ExamenIPARCIAL\ExamenIPARCIAL\bin\Debug\ExamenIPARCIAL.exe.config
+C:\Users\Elmer Chandia\Documents\GitHub\ExamenDesarrollo\ExamenIPARCIAL\ExamenIPARCIAL\bin\Debug\ExamenIPARCIAL.exe
+C:\Users\Elmer Chandia\Documents\GitHub\ExamenDesarrollo\ExamenIPARCIAL\ExamenIPARCIAL\bin\Debug\ExamenIPARCIAL.pdb
+C:\Users\Elmer Chandia\Documents\GitHub\ExamenDesarrollo\ExamenIPARCIAL\ExamenIPARCIAL\bin\Debug\ExamenIPARCIAL.xml
+C:\Users\Elmer Chandia\Documents\GitHub\ExamenDesarrollo\ExamenIPARCIAL\ExamenIPARCIAL\obj\Debug\ExamenIPARCIAL.vbprojAssemblyReference.cache
+C:\Users\Elmer Chandia\Documents\GitHub\ExamenDesarrollo\ExamenIPARCIAL\ExamenIPARCIAL\obj\Debug\ExamenIPARCIAL.CrearUsuario.resources
+C:\Users\Elmer Chandia\Documents\GitHub\ExamenDesarrollo\ExamenIPARCIAL\ExamenIPARCIAL\obj\Debug\ExamenIPARCIAL.Login.resources
+C:\Users\Elmer Chandia\Documents\GitHub\ExamenDesarrollo\ExamenIPARCIAL\ExamenIPARCIAL\obj\Debug\ExamenIPARCIAL.Resources.resources
+C:\Users\Elmer Chandia\Documents\GitHub\ExamenDesarrollo\ExamenIPARCIAL\ExamenIPARCIAL\obj\Debug\ExamenIPARCIAL.Prinicipal.resources
+C:\Users\Elmer Chandia\Documents\GitHub\ExamenDesarrollo\ExamenIPARCIAL\ExamenIPARCIAL\obj\Debug\ExamenIPARCIAL.vbproj.GenerateResource.cache
+C:\Users\Elmer Chandia\Documents\GitHub\ExamenDesarrollo\ExamenIPARCIAL\ExamenIPARCIAL\obj\Debug\ExamenIPARCIAL.vbproj.CoreCompileInputs.cache
+C:\Users\Elmer Chandia\Documents\GitHub\ExamenDesarrollo\ExamenIPARCIAL\ExamenIPARCIAL\obj\Debug\ExamenIPARCIAL.exe
+C:\Users\Elmer Chandia\Documents\GitHub\ExamenDesarrollo\ExamenIPARCIAL\ExamenIPARCIAL\obj\Debug\ExamenIPARCIAL.xml
+C:\Users\Elmer Chandia\Documents\GitHub\ExamenDesarrollo\ExamenIPARCIAL\ExamenIPARCIAL\obj\Debug\ExamenIPARCIAL.pdb

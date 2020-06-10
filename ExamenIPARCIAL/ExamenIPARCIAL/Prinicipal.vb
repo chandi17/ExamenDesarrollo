@@ -174,4 +174,8 @@ Public Class Prinicipal
             Me.ErrorValidacion.SetError(sender, "Es un campo obligatorio")
         End If
     End Sub
+
+    Private Sub txtNombre_TextChanged(sender As Object, e As EventArgs) Handles txtNombre.TextChanged
+
+    End Sub
 End Class

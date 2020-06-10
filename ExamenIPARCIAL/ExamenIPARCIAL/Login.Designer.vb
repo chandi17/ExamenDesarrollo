@@ -91,9 +91,9 @@ Partial Class Login
         Me.Label1.Font = New System.Drawing.Font("Arial Narrow", 28.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(277, 45)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(150, 57)
+        Me.Label1.Size = New System.Drawing.Size(339, 57)
         Me.Label1.TabIndex = 5
-        Me.Label1.Text = "LOGIN"
+        Me.Label1.Text = "LOGIN SINAGER"
         '
         'LinkLabel1
         '

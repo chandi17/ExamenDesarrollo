@@ -83,11 +83,11 @@ Partial Class Prinicipal
         'GroupBox1
         '
         Me.GroupBox1.Controls.Add(Me.txtEdad)
-        Me.GroupBox1.Controls.Add(Me.txtMunicipio)
         Me.GroupBox1.Controls.Add(Me.txtNombre)
-        Me.GroupBox1.Controls.Add(Me.Label7)
+        Me.GroupBox1.Controls.Add(Me.cmbDepartamento)
         Me.GroupBox1.Controls.Add(Me.Label3)
         Me.GroupBox1.Controls.Add(Me.Label1)
+        Me.GroupBox1.Controls.Add(Me.Label5)
         Me.GroupBox1.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.Location = New System.Drawing.Point(28, 74)
         Me.GroupBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
@@ -100,7 +100,7 @@ Partial Class Prinicipal
         '
         'txtEdad
         '
-        Me.txtEdad.Location = New System.Drawing.Point(85, 60)
+        Me.txtEdad.Location = New System.Drawing.Point(124, 60)
         Me.txtEdad.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtEdad.Mask = "999"
         Me.txtEdad.Name = "txtEdad"
@@ -110,7 +110,7 @@ Partial Class Prinicipal
         '
         'txtMunicipio
         '
-        Me.txtMunicipio.Location = New System.Drawing.Point(85, 91)
+        Me.txtMunicipio.Location = New System.Drawing.Point(131, 42)
         Me.txtMunicipio.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtMunicipio.Name = "txtMunicipio"
         Me.txtMunicipio.Size = New System.Drawing.Size(187, 25)
@@ -118,7 +118,7 @@ Partial Class Prinicipal
         '
         'txtNombre
         '
-        Me.txtNombre.Location = New System.Drawing.Point(85, 30)
+        Me.txtNombre.Location = New System.Drawing.Point(124, 31)
         Me.txtNombre.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtNombre.Name = "txtNombre"
         Me.txtNombre.Size = New System.Drawing.Size(187, 25)
@@ -127,7 +127,7 @@ Partial Class Prinicipal
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(11, 91)
+        Me.Label7.Location = New System.Drawing.Point(24, 45)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(75, 20)
         Me.Label7.TabIndex = 0
@@ -154,7 +154,7 @@ Partial Class Prinicipal
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(23, 42)
+        Me.Label5.Location = New System.Drawing.Point(11, 92)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(98, 20)
         Me.Label5.TabIndex = 0
@@ -182,7 +182,7 @@ Partial Class Prinicipal
         '
         Me.cmbDepartamento.FormattingEnabled = True
         Me.cmbDepartamento.Items.AddRange(New Object() {"Atlántida", "Choluteca", "Colón", "Comayagua", "Copán", "Cortés", "El Paraíso", "Francisco Morazán", "Gracias a Dios", "Intibucá", "Islas de la Bahía", "La Paz", "Lempira", "Ocotepeque", "Olancho", "Santa Bárbara", "Valle", "Yoro"})
-        Me.cmbDepartamento.Location = New System.Drawing.Point(131, 39)
+        Me.cmbDepartamento.Location = New System.Drawing.Point(124, 89)
         Me.cmbDepartamento.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cmbDepartamento.Name = "cmbDepartamento"
         Me.cmbDepartamento.Size = New System.Drawing.Size(121, 28)
@@ -211,13 +211,13 @@ Partial Class Prinicipal
         'GroupBox2
         '
         Me.GroupBox2.Controls.Add(Me.cmbResultado)
+        Me.GroupBox2.Controls.Add(Me.txtMunicipio)
         Me.GroupBox2.Controls.Add(Me.Label10)
-        Me.GroupBox2.Controls.Add(Me.cmbDepartamento)
+        Me.GroupBox2.Controls.Add(Me.Label7)
         Me.GroupBox2.Controls.Add(Me.cmbEstado)
         Me.GroupBox2.Controls.Add(Me.txtDescripcion)
         Me.GroupBox2.Controls.Add(Me.Label6)
         Me.GroupBox2.Controls.Add(Me.Label8)
-        Me.GroupBox2.Controls.Add(Me.Label5)
         Me.GroupBox2.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox2.Location = New System.Drawing.Point(28, 246)
         Me.GroupBox2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
@@ -441,9 +441,9 @@ Partial Class Prinicipal
         Me.GroupBox4.Controls.Add(Me.Label12)
         Me.GroupBox4.Controls.Add(Me.txtTotalAplicadas)
         Me.GroupBox4.Location = New System.Drawing.Point(309, 487)
-        Me.GroupBox4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox4.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox4.Padding = New System.Windows.Forms.Padding(4)
         Me.GroupBox4.Size = New System.Drawing.Size(205, 166)
         Me.GroupBox4.TabIndex = 8
         Me.GroupBox4.TabStop = False
@@ -536,9 +536,9 @@ Partial Class Prinicipal
         Me.GroupBox5.Controls.Add(Me.Label9)
         Me.GroupBox5.Controls.Add(Me.Label4)
         Me.GroupBox5.Location = New System.Drawing.Point(28, 479)
-        Me.GroupBox5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox5.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox5.Name = "GroupBox5"
-        Me.GroupBox5.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox5.Padding = New System.Windows.Forms.Padding(4)
         Me.GroupBox5.Size = New System.Drawing.Size(273, 175)
         Me.GroupBox5.TabIndex = 9
         Me.GroupBox5.TabStop = False

@@ -11,6 +11,9 @@
         pautaPassword = txtPassword.Text
         pautaUsuario = txtUsuario.Text
         MessageBox.Show("Usuario Agregado con exito....", "Creae Usuario", MessageBoxButtons.OK)
+        txtPassword.Clear()
+        txtUsuario.Clear()
+
     End Sub
 
     Private Sub btnCancelar_Click(sender As Object, e As EventArgs) Handles btnCancelar.Click

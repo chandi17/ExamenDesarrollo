@@ -22,11 +22,13 @@ Partial Class PanelMenu
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.btnCliente = New System.Windows.Forms.Button()
         Me.btnProducto = New System.Windows.Forms.Button()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.txtFecha = New System.Windows.Forms.MaskedTextBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.btnConsultar = New System.Windows.Forms.Button()
@@ -46,10 +48,7 @@ Partial Class PanelMenu
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.dgvVentas = New System.Windows.Forms.DataGridView()
         Me.txtPrecio = New System.Windows.Forms.TextBox()
-        Me.txtFecha = New System.Windows.Forms.TextBox()
         Me.txtIdVenta = New System.Windows.Forms.TextBox()
-        Me.MaskedTextBox1 = New System.Windows.Forms.MaskedTextBox()
-        Me.Label8 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.Panel3.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -90,7 +89,7 @@ Partial Class PanelMenu
         '
         Me.Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(173, Byte), Integer), CType(CType(219, Byte), Integer), CType(CType(154, Byte), Integer))
         Me.Panel3.Controls.Add(Me.Label8)
-        Me.Panel3.Controls.Add(Me.MaskedTextBox1)
+        Me.Panel3.Controls.Add(Me.txtFecha)
         Me.Panel3.Controls.Add(Me.PictureBox1)
         Me.Panel3.Controls.Add(Me.Button1)
         Me.Panel3.Controls.Add(Me.btnConsultar)
@@ -109,13 +108,29 @@ Partial Class PanelMenu
         Me.Panel3.Controls.Add(Me.Label1)
         Me.Panel3.Controls.Add(Me.Panel2)
         Me.Panel3.Controls.Add(Me.txtPrecio)
-        Me.Panel3.Controls.Add(Me.txtFecha)
         Me.Panel3.Controls.Add(Me.txtIdVenta)
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel3.Location = New System.Drawing.Point(164, 0)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(818, 603)
         Me.Panel3.TabIndex = 2
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(268, 154)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(94, 17)
+        Me.Label8.TabIndex = 28
+        Me.Label8.Text = "AAAA/MM/DD"
+        '
+        'txtFecha
+        '
+        Me.txtFecha.Location = New System.Drawing.Point(150, 151)
+        Me.txtFecha.Mask = "0000/00/00"
+        Me.txtFecha.Name = "txtFecha"
+        Me.txtFecha.Size = New System.Drawing.Size(112, 22)
+        Me.txtFecha.TabIndex = 27
         '
         'PictureBox1
         '
@@ -142,7 +157,7 @@ Partial Class PanelMenu
         Me.btnConsultar.Name = "btnConsultar"
         Me.btnConsultar.Size = New System.Drawing.Size(96, 32)
         Me.btnConsultar.TabIndex = 20
-        Me.btnConsultar.Text = "BtnConsultar"
+        Me.btnConsultar.Text = "Consultar"
         Me.btnConsultar.UseVisualStyleBackColor = True
         '
         'BtnEliminar
@@ -269,14 +284,14 @@ Partial Class PanelMenu
         '
         Me.dgvVentas.AllowUserToAddRows = False
         Me.dgvVentas.AllowUserToDeleteRows = False
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopLeft
-        DataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.LightBlue
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvVentas.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopLeft
+        DataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.LightBlue
+        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvVentas.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
         Me.dgvVentas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgvVentas.Dock = System.Windows.Forms.DockStyle.Fill
         Me.dgvVentas.Location = New System.Drawing.Point(0, 0)
@@ -294,36 +309,12 @@ Partial Class PanelMenu
         Me.txtPrecio.Size = New System.Drawing.Size(112, 22)
         Me.txtPrecio.TabIndex = 2
         '
-        'txtFecha
-        '
-        Me.txtFecha.Location = New System.Drawing.Point(150, 170)
-        Me.txtFecha.Name = "txtFecha"
-        Me.txtFecha.Size = New System.Drawing.Size(112, 22)
-        Me.txtFecha.TabIndex = 1
-        '
         'txtIdVenta
         '
         Me.txtIdVenta.Location = New System.Drawing.Point(150, 108)
         Me.txtIdVenta.Name = "txtIdVenta"
         Me.txtIdVenta.Size = New System.Drawing.Size(112, 22)
         Me.txtIdVenta.TabIndex = 0
-        '
-        'MaskedTextBox1
-        '
-        Me.MaskedTextBox1.Location = New System.Drawing.Point(150, 137)
-        Me.MaskedTextBox1.Mask = "0000/00/00"
-        Me.MaskedTextBox1.Name = "MaskedTextBox1"
-        Me.MaskedTextBox1.Size = New System.Drawing.Size(112, 22)
-        Me.MaskedTextBox1.TabIndex = 27
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(268, 137)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(94, 17)
-        Me.Label8.TabIndex = 28
-        Me.Label8.Text = "AAAA/MM/DD"
         '
         'PanelMenu
         '
@@ -351,7 +342,6 @@ Partial Class PanelMenu
     Friend WithEvents Panel2 As Panel
     Friend WithEvents dgvVentas As DataGridView
     Friend WithEvents txtPrecio As TextBox
-    Friend WithEvents txtFecha As TextBox
     Friend WithEvents txtIdVenta As TextBox
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
@@ -372,5 +362,5 @@ Partial Class PanelMenu
     Friend WithEvents Button1 As Button
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label8 As Label
-    Friend WithEvents MaskedTextBox1 As MaskedTextBox
+    Friend WithEvents txtFecha As MaskedTextBox
 End Class

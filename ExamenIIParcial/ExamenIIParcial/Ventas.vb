@@ -161,9 +161,4 @@
 
 
     End Sub
-
-    Private Sub dgvVentas_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvVentas.CellContentClick
-        txtIdVenta.Text = dgvVentas.CurrentRow.Cells(0).Value.ToString
-        txtFecha.Text = dgvVentas.CurrentRow.Cells(0).Value.ToString
-    End Sub
 End Class

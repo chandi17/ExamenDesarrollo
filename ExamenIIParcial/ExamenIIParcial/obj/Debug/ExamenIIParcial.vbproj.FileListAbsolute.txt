@@ -24,3 +24,7 @@ C:\Users\Elmer Chandia\Documents\GitHub\ExamenDesarrollo\ExamenIIParcial\ExamenI
 C:\Users\Elmer Chandia\Documents\GitHub\ExamenDesarrollo\ExamenIIParcial\ExamenIIParcial\obj\Debug\ExamenIIParcial.exe
 C:\Users\Elmer Chandia\Documents\GitHub\ExamenDesarrollo\ExamenIIParcial\ExamenIIParcial\obj\Debug\ExamenIIParcial.xml
 C:\Users\Elmer Chandia\Documents\GitHub\ExamenDesarrollo\ExamenIIParcial\ExamenIIParcial\obj\Debug\ExamenIIParcial.pdb
+C:\Users\Elmer Chandia\Documents\GitHub\ExamenDesarrollo\ExamenIIParcial\ExamenIIParcial\bin\Debug\ExamenIIParcial.exe.config
+C:\Users\Elmer Chandia\Documents\GitHub\ExamenDesarrollo\ExamenIIParcial\ExamenIIParcial\bin\Debug\ExamenIIParcial.exe
+C:\Users\Elmer Chandia\Documents\GitHub\ExamenDesarrollo\ExamenIIParcial\ExamenIIParcial\bin\Debug\ExamenIIParcial.pdb
+C:\Users\Elmer Chandia\Documents\GitHub\ExamenDesarrollo\ExamenIIParcial\ExamenIIParcial\bin\Debug\ExamenIIParcial.xml

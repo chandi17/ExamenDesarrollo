@@ -13,3 +13,14 @@ C:\Users\Elmer Chandia\source\repos\ExamenIIParcial\ExamenIIParcial\obj\Debug\Ex
 C:\Users\Elmer Chandia\source\repos\ExamenIIParcial\ExamenIIParcial\obj\Debug\ExamenIIParcial.Clientes.resources
 C:\Users\Elmer Chandia\source\repos\ExamenIIParcial\ExamenIIParcial\obj\Debug\ExamenIIParcial.MenuPrincipal.resources
 C:\Users\Elmer Chandia\source\repos\ExamenIIParcial\ExamenIIParcial\obj\Debug\ExamenIIParcial.Productos.resources
+C:\Users\Elmer Chandia\Documents\GitHub\ExamenDesarrollo\ExamenIIParcial\ExamenIIParcial\obj\Debug\ExamenIIParcial.vbprojAssemblyReference.cache
+C:\Users\Elmer Chandia\Documents\GitHub\ExamenDesarrollo\ExamenIIParcial\ExamenIIParcial\obj\Debug\ExamenIIParcial.Clientes.resources
+C:\Users\Elmer Chandia\Documents\GitHub\ExamenDesarrollo\ExamenIIParcial\ExamenIIParcial\obj\Debug\ExamenIIParcial.Productos.resources
+C:\Users\Elmer Chandia\Documents\GitHub\ExamenDesarrollo\ExamenIIParcial\ExamenIIParcial\obj\Debug\ExamenIIParcial.PanelMenu.resources
+C:\Users\Elmer Chandia\Documents\GitHub\ExamenDesarrollo\ExamenIIParcial\ExamenIIParcial\obj\Debug\ExamenIIParcial.MenuPrincipal.resources
+C:\Users\Elmer Chandia\Documents\GitHub\ExamenDesarrollo\ExamenIIParcial\ExamenIIParcial\obj\Debug\ExamenIIParcial.Resources.resources
+C:\Users\Elmer Chandia\Documents\GitHub\ExamenDesarrollo\ExamenIIParcial\ExamenIIParcial\obj\Debug\ExamenIIParcial.vbproj.GenerateResource.cache
+C:\Users\Elmer Chandia\Documents\GitHub\ExamenDesarrollo\ExamenIIParcial\ExamenIIParcial\obj\Debug\ExamenIIParcial.vbproj.CoreCompileInputs.cache
+C:\Users\Elmer Chandia\Documents\GitHub\ExamenDesarrollo\ExamenIIParcial\ExamenIIParcial\obj\Debug\ExamenIIParcial.exe
+C:\Users\Elmer Chandia\Documents\GitHub\ExamenDesarrollo\ExamenIIParcial\ExamenIIParcial\obj\Debug\ExamenIIParcial.xml
+C:\Users\Elmer Chandia\Documents\GitHub\ExamenDesarrollo\ExamenIIParcial\ExamenIIParcial\obj\Debug\ExamenIIParcial.pdb

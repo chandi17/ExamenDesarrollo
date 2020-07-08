@@ -43,14 +43,14 @@ Public Class Prinicipal
 
 
     End Sub
-    Private Function LlenarCampos()
+    Private Sub LlenarCampos()
         DataHistorial.Rows.Add(txtNombre.Text, txtEdad.Text, txtMunicipio.Text, cmbDepartamento.Text, cmbEstado.Text, txtDescripcion.Text)
-    End Function
-    Private Function ContadoresTotales(dep As Integer, estado As Integer)
+    End Sub
+    Private Sub ContadoresTotales(dep As Integer, estado As Integer)
         LlenarCampos()
         Variables.TotalesDepartamento(dep, estado) += 1
         Variables.Totales(estado) += 1
-    End Function
+    End Sub
 
     Private Sub cmbResultado_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cmbResultado.SelectedIndexChanged
         If cmbResultado.SelectedIndex = 0 Then

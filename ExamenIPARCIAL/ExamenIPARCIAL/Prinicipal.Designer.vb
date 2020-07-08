@@ -25,15 +25,15 @@ Partial Class Prinicipal
         Me.components = New System.ComponentModel.Container()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.txtEdad = New System.Windows.Forms.MaskedTextBox()
-        Me.txtMunicipio = New System.Windows.Forms.TextBox()
         Me.txtNombre = New System.Windows.Forms.TextBox()
-        Me.Label7 = New System.Windows.Forms.Label()
+        Me.cmbDepartamento = New System.Windows.Forms.ComboBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
+        Me.txtMunicipio = New System.Windows.Forms.TextBox()
+        Me.Label7 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.txtDescripcion = New System.Windows.Forms.TextBox()
-        Me.cmbDepartamento = New System.Windows.Forms.ComboBox()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.cmbEstado = New System.Windows.Forms.ComboBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
@@ -108,14 +108,6 @@ Partial Class Prinicipal
         Me.txtEdad.TabIndex = 1
         Me.txtEdad.ValidatingType = GetType(Integer)
         '
-        'txtMunicipio
-        '
-        Me.txtMunicipio.Location = New System.Drawing.Point(131, 42)
-        Me.txtMunicipio.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtMunicipio.Name = "txtMunicipio"
-        Me.txtMunicipio.Size = New System.Drawing.Size(187, 25)
-        Me.txtMunicipio.TabIndex = 2
-        '
         'txtNombre
         '
         Me.txtNombre.Location = New System.Drawing.Point(124, 31)
@@ -124,14 +116,15 @@ Partial Class Prinicipal
         Me.txtNombre.Size = New System.Drawing.Size(187, 25)
         Me.txtNombre.TabIndex = 0
         '
-        'Label7
+        'cmbDepartamento
         '
-        Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(24, 45)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(75, 20)
-        Me.Label7.TabIndex = 0
-        Me.Label7.Text = "Municipio:"
+        Me.cmbDepartamento.FormattingEnabled = True
+        Me.cmbDepartamento.Items.AddRange(New Object() {"Atlántida", "Choluteca", "Colón", "Comayagua", "Copán", "Cortés", "El Paraíso", "Francisco Morazán", "Gracias a Dios", "Intibucá", "Islas de la Bahía", "La Paz", "Lempira", "Ocotepeque", "Olancho", "Santa Bárbara", "Valle", "Yoro"})
+        Me.cmbDepartamento.Location = New System.Drawing.Point(124, 89)
+        Me.cmbDepartamento.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.cmbDepartamento.Name = "cmbDepartamento"
+        Me.cmbDepartamento.Size = New System.Drawing.Size(121, 28)
+        Me.cmbDepartamento.TabIndex = 0
         '
         'Label3
         '
@@ -160,6 +153,23 @@ Partial Class Prinicipal
         Me.Label5.TabIndex = 0
         Me.Label5.Text = "Departamento:"
         '
+        'txtMunicipio
+        '
+        Me.txtMunicipio.Location = New System.Drawing.Point(131, 42)
+        Me.txtMunicipio.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtMunicipio.Name = "txtMunicipio"
+        Me.txtMunicipio.Size = New System.Drawing.Size(187, 25)
+        Me.txtMunicipio.TabIndex = 2
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(24, 45)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(75, 20)
+        Me.Label7.TabIndex = 0
+        Me.Label7.Text = "Municipio:"
+        '
         'Label6
         '
         Me.Label6.AutoSize = True
@@ -177,16 +187,6 @@ Partial Class Prinicipal
         Me.txtDescripcion.Name = "txtDescripcion"
         Me.txtDescripcion.Size = New System.Drawing.Size(187, 63)
         Me.txtDescripcion.TabIndex = 3
-        '
-        'cmbDepartamento
-        '
-        Me.cmbDepartamento.FormattingEnabled = True
-        Me.cmbDepartamento.Items.AddRange(New Object() {"Atlántida", "Choluteca", "Colón", "Comayagua", "Copán", "Cortés", "El Paraíso", "Francisco Morazán", "Gracias a Dios", "Intibucá", "Islas de la Bahía", "La Paz", "Lempira", "Ocotepeque", "Olancho", "Santa Bárbara", "Valle", "Yoro"})
-        Me.cmbDepartamento.Location = New System.Drawing.Point(124, 89)
-        Me.cmbDepartamento.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.cmbDepartamento.Name = "cmbDepartamento"
-        Me.cmbDepartamento.Size = New System.Drawing.Size(121, 28)
-        Me.cmbDepartamento.TabIndex = 0
         '
         'Label8
         '

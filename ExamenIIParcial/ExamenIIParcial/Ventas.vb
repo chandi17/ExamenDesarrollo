@@ -163,13 +163,7 @@
     End Sub
 
     Private Sub dgvVentas_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvVentas.CellContentClick
-        txtPrimerNombre.Text = dgvRegistros.CurrentRow.Cells(0).Value.ToString
-        txtSegundoNombre.Text = dgvRegistros.CurrentRow.Cells(1).Value.ToString
-        txtprimerApellido.Text = dgvRegistros.CurrentRow.Cells(2).Value.ToString
-        txtSegundoApellido.Text = dgvRegistros.CurrentRow.Cells(3).Value.ToString
-        cmbSexo.SelectedItem = dgvRegistros.CurrentRow.Cells(4).Value.ToString
-        txtEdad.Text = dgvRegistros.CurrentRow.Cells(5).Value.ToString
-        txtPlaca.Text = dgvRegistros.CurrentRow.Cells(6).Value.ToString
-        txtColor.Text = dgvRegistros.CurrentRow.Cells(7).Value.ToString
+        txtIdVenta.Text = dgvVentas.CurrentRow.Cells(0).Value.ToString
+        txtFecha.Text = dgvVentas.CurrentRow.Cells(0).Value.ToString
     End Sub
 End Class
